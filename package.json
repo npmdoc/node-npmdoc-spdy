@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "spdy",
-    "description": "api documentation for [spdy (v3.4.4)](https://github.com/indutny/node-spdy) [![npm package](https://img.shields.io/npm/v/npmdoc-spdy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-spdy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-spdy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-spdy)",
+    "description": "#### api documentation for  [spdy (v3.4.4)](https://github.com/indutny/node-spdy)  [![npm package](https://img.shields.io/npm/v/npmdoc-spdy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-spdy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-spdy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-spdy)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "spdy": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.2"
+    "version": "0.0.3"
 }
