@@ -1,6 +1,6 @@
 # npmdoc-spdy
 
-#### api documentation for  [spdy (v3.4.4)](https://github.com/indutny/node-spdy)  [![npm package](https://img.shields.io/npm/v/npmdoc-spdy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-spdy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-spdy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-spdy)
+#### basic api documentation for  [spdy (v3.4.4)](https://github.com/indutny/node-spdy)  [![npm package](https://img.shields.io/npm/v/npmdoc-spdy.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-spdy) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-spdy.svg)](https://travis-ci.org/npmdoc/node-npmdoc-spdy)
 
 #### Implementation of the SPDY protocol on node.js.
 
@@ -95,7 +95,8 @@
     "scripts": {
         "test": "jscs lib/**/*.js test/*.js && jshint lib/**/*.js && mocha --reporter=spec test/*-test.js"
     },
-    "version": "3.4.4"
+    "version": "3.4.4",
+    "bin": {}
 }
 ```
 
